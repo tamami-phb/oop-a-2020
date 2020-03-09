@@ -3,7 +3,7 @@ package entity;
 public class Mahasiswa {
 
     // properti
-    private String nim;
+    public String nim;
     private String nama;
     private String kelas;
 
@@ -20,8 +20,26 @@ public class Mahasiswa {
     // method
     public String getNim() { return nim; }
 
+    public void setNim(String nima) {
+        nim = nima;
+    }
+
     public String getNama() { return nama; }
 
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setKelas(String kelas) {
+        this.kelas = kelas;
+    }
+
     public String getKelas() { return kelas; }
+
+    public String info() {
+        return "Nama : " + nama + "\n" +
+            "Kelas : " + kelas + "\n" +
+            "NIM : " + nim;
+    }
 
 }

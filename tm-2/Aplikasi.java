@@ -6,9 +6,12 @@ public class Aplikasi {
         Mahasiswa tamami = new Mahasiswa("19001",
             "tamami", "A");
 
+        System.out.println(Math.abs(-32));
         //mhs.nim = "19001";
         System.out.println("Halo dunia Java");
-        System.out.println(mahasiswa.getNim());
-        System.out.println(tamami.getNama());
+        System.out.println(mahasiswa.nim);
+        System.out.println(tamami.nim);
+        System.out.println(mahasiswa.nim);
+        System.out.println(tamami.info());
     }
 }
