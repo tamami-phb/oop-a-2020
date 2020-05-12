@@ -13,5 +13,13 @@ public class Aplikasi {
         System.out.println(tamami.nim);
         System.out.println(mahasiswa.nim);
         System.out.println(tamami.info());
+
+        Hewan kucing = new Hewan("meow", "kucing");
+        Hewan anjing = new Hewan("guk", "anjing");
+        System.out.println("Hewan : " + kucing.getJenis() + "\n  " +
+            "suaranya: " + kucing.getSuara());
+        System.out.println("Hewan : " + anjing.getJenis() + "\n  " +
+            "suaranya: " + anjing.getSuara());
+
     }
 }
